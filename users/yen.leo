@@ -16,8 +16,6 @@
 <v t="yen.20170108171622.1"><vh>有關 2017springwcm</vh></v>
 <v t="yen.20170108171733.1" a="E"><vh>@path ../</vh>
 <v t="yen.20170108171733.2"><vh>@button pelican-blog</vh></v>
-<v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
-<v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
 <v t="yen.20170108171733.5" a="E"><vh>Pelican 設定</vh>
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>

@@ -37,15 +37,9 @@
 <v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="yen.20170108171733.64"><vh>各式內容引用範例</vh>
-<v t="yen.20170108171733.65" a="E"><vh>導入數學符號與方程式</vh>
-<v t="yen.20170108171733.66"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="yen.20170108171733.67" a="E"><vh>導入縮排程式碼</vh>
-<v t="yen.20170108171733.68"><vh>引用程式碼</vh></v>
-</v>
-<v t="yen.20170108171733.69" a="E"><vh>導入影片</vh>
-<v t="yen.20170108171733.70"><vh>iframe 導入影片</vh></v>
+<v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
+<v t="yen.20170108171733.65" a="E"><vh>機械設計是什麼？</vh>
+<v t="yen.20170108171733.66"><vh>答案</vh></v>
 </v>
 </v>
 </v>
@@ -58,6 +52,7 @@
 <v t="leo.20170427233807.2"><vh>@edit 20170331.md</vh></v>
 <v t="leo.20170427233725.1"><vh>@edit 20170407.md</vh></v>
 <v t="leo.20170427233808.1"><vh>@edit 20170421.md</vh></v>
+<v t="leo.20170616142210.1"><vh>@edit 20170616.md</vh></v>
 <v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
 <v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -239,7 +234,7 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [s40523142](https://github.com/s40523142)
 &lt;/small&gt;
 
 [網際內容管理課程網誌](blog/index.html)
@@ -288,67 +283,19 @@ g.es("admin pelican 近端執行完畢")
 
 						
 </t>
-<t tx="yen.20170108171733.66"># 數學符號與方程式
+<t tx="yen.20170108171733.66"># 機械設計是什麼？
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="yen.20170108171733.67">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="yen.20170108171733.68">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="yen.20170108171733.69">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170108171733.70">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+機：精巧的配置。
+械：每個設計出來的產品，都有其固定功能。
+設：用言語奴役他人、機器人。
+計：詳細思慮、考量。
+就
+是
+一
+種
+表
+達
+。</t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.8">@language xml
 @tabwidth -4

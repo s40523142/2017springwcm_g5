@@ -37,10 +37,17 @@
 <v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
 <v t="yen.20170108171733.65" a="E"><vh>機械設計是什麼？</vh>
 <v t="yen.20170108171733.66"><vh>答案</vh></v>
 </v>
+<v t="leo.20170623104645.1"><vh>小知識</vh>
+<v t="leo.20170623104654.1"><vh>小知識們</vh></v>
+</v>
+<v t="leo.20170623110703.1" a="E"><vh>網路線</vh>
+<v t="leo.20170623110710.1"><vh>自製網路線</vh></v>
+</v>
+<v t="leo.20170623105624.1"><vh>何謂DNS伺服器</vh>
+<v t="leo.20170623105634.1"><vh>何謂DNS伺服器答案</vh></v>
 </v>
 </v>
 </v>
@@ -63,6 +70,49 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170623104645.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170623104654.1"># 小知識們
+
+* 運用CNAME可以為github倉儲mdecourse.github.io架設網址
+* [2001:288:6004:17::17]    IPv6分隔用「:」  IPv4分隔用「.」
+
+
+</t>
+<t tx="leo.20170623105624.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170623105634.1"># DNS(Domain Name System)「網域名稱系統」
+
+
+&lt;small&gt;
+其主要的目的是用來解釋網際網路上的電腦主機名稱與IP位址之間的關係，進而能正確的在網際網路上找到該主機並傳送正確的訊息。其實DNS在Internet的發展上是很重要的一環，在Internet的應用上，我們最常看到它的地方除了網路設定裡的DNS設定，其實我們用瀏覽器開啟網址，寄發E-mail都和Domain Name及DNS系統息息相關，網路上的位址是用IP來定址的，而如何從Domain Name看出正確的位址，就得靠DNS系統的運作。
+&lt;/small&gt;
+### DNS伺服器位址 : 2001:288:6004:1::2 是虎科大專用
+</t>
+<t tx="leo.20170623110703.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170623110710.1"># 一般網路線的排列順序為
+
+* &lt;img src="http://pic.pimg.tw/finalfrank/06247b6e58e3b3a31180cd54a55653d3.gif"&gt;
+
+* 設線兩端分別為A端及B端
+
+* A端 白橙 - 橙 - 白綠 - 藍 - 白藍 - 綠 - 白棕 - 棕
+* B端 白橙 - 橙 - 白綠 - 藍 - 白藍 - 綠 - 白棕 - 棕
+* 排列好後把每條線剪平
+* 塑膠皮要塞進網路線接頭，不能去除太多， 剛好讓接頭咬住塑膠皮即可
+* 接頭內有8個軌道供網路線插入
+* 將內線排好，一起塞入接頭
+* 注意一個軌道只能有一條內線進入，並且順序要對</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -269,33 +319,24 @@ g.es("admin pelican 近端執行完畢")
 
 </t>
 <t tx="yen.20170108171733.5"></t>
-<t tx="yen.20170108171733.64">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
 <t tx="yen.20170108171733.65">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
+&lt;/section&gt;</t>
 <t tx="yen.20170108171733.66"># 機械設計是什麼？
 
-機：精巧的配置。
-械：每個設計出來的產品，都有其固定功能。
-設：用言語奴役他人、機器人。
-計：詳細思慮、考量。
-就
-是
-一
-種
-表
-達
-。</t>
+* 機：精巧的配置。
+* 械：每個設計出來的產品，都有其固定功能。
+* 設：用言語奴役他人、機器人。
+* 計：詳細思慮、考量。
+* 就
+* 是
+* 一
+* 種
+* 表
+* 達
+</t>
 <t tx="yen.20170108171733.71"></t>
 <t tx="yen.20170108171733.8">@language xml
 @tabwidth -4

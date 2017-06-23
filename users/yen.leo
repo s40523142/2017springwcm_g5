@@ -40,14 +40,22 @@
 <v t="yen.20170108171733.65" a="E"><vh>機械設計是什麼？</vh>
 <v t="yen.20170108171733.66"><vh>答案</vh></v>
 </v>
-<v t="leo.20170623104645.1"><vh>小知識</vh>
+<v t="leo.20170623104645.1" a="E"><vh>小知識</vh>
 <v t="leo.20170623104654.1"><vh>小知識們</vh></v>
 </v>
 <v t="leo.20170623110703.1" a="E"><vh>網路線</vh>
 <v t="leo.20170623110710.1"><vh>自製網路線</vh></v>
 </v>
-<v t="leo.20170623105624.1"><vh>何謂DNS伺服器</vh>
+<v t="leo.20170623113156.1" a="E"><vh>有關IPv6</vh>
+<v t="leo.20170623105624.1" a="E"><vh>何謂DNS伺服器</vh>
 <v t="leo.20170623105634.1"><vh>何謂DNS伺服器答案</vh></v>
+</v>
+<v t="leo.20170623113216.1" a="E"><vh>架設IPv6</vh>
+<v t="leo.20170623113236.1"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20170623112133.1" a="E"><vh>心得</vh>
+<v t="leo.20170623112140.1"><vh>心得文</vh></v>
 </v>
 </v>
 </v>
@@ -75,7 +83,7 @@
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170623104654.1"># 小知識們
+<t tx="leo.20170623104654.1">### 小知識們
 
 * 運用CNAME可以為github倉儲mdecourse.github.io架設網址
 * [2001:288:6004:17::17]    IPv6分隔用「:」  IPv4分隔用「.」
@@ -87,32 +95,65 @@
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170623105634.1"># DNS(Domain Name System)「網域名稱系統」
-
-
+<t tx="leo.20170623105634.1">DNS
+(Domain Name System)
+「網域名稱系統」
 &lt;small&gt;
 其主要的目的是用來解釋網際網路上的電腦主機名稱與IP位址之間的關係，進而能正確的在網際網路上找到該主機並傳送正確的訊息。其實DNS在Internet的發展上是很重要的一環，在Internet的應用上，我們最常看到它的地方除了網路設定裡的DNS設定，其實我們用瀏覽器開啟網址，寄發E-mail都和Domain Name及DNS系統息息相關，網路上的位址是用IP來定址的，而如何從Domain Name看出正確的位址，就得靠DNS系統的運作。
 &lt;/small&gt;
-### DNS伺服器位址 : 2001:288:6004:1::2 是虎科大專用
+* DNS伺服器位址 : 2001:288:6004:1::2 是虎科大專用
 </t>
 <t tx="leo.20170623110703.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170623110710.1"># 一般網路線的排列順序為
-
-* &lt;img src="http://pic.pimg.tw/finalfrank/06247b6e58e3b3a31180cd54a55653d3.gif"&gt;
-
+<t tx="leo.20170623110710.1">### 一般網路線的排列順序
+&lt;img src="http://pic.pimg.tw/finalfrank/06247b6e58e3b3a31180cd54a55653d3.gif"&gt;
 * 設線兩端分別為A端及B端
-
 * A端 白橙 - 橙 - 白綠 - 藍 - 白藍 - 綠 - 白棕 - 棕
 * B端 白橙 - 橙 - 白綠 - 藍 - 白藍 - 綠 - 白棕 - 棕
+&lt;small&gt;
 * 排列好後把每條線剪平
-* 塑膠皮要塞進網路線接頭，不能去除太多， 剛好讓接頭咬住塑膠皮即可
+* 塑膠皮要塞進網路線接頭，不能去除太多
+*  剛好讓接頭咬住塑膠皮即可
 * 接頭內有8個軌道供網路線插入
 * 將內線排好，一起塞入接頭
-* 注意一個軌道只能有一條內線進入，並且順序要對</t>
+* 注意一個軌道只能有一條內線進入，並且順序要對
+&lt;/small&gt;
+</t>
+<t tx="leo.20170623112133.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170623112140.1"># 心得
+這學期學到很多很實用的東西，自己拆裝主機、自己重設一台電腦、架設虛擬主機，尤其是重設一台電腦，真的讓我受益良多。重設電腦期間完全不能使用滑鼠的，只能以鍵盤來操作，通過種種的選項，再次重開機他就能順利跑出桌面，真的非常有成就感，希望之後還能學到更多這類的東西。還有架設虛擬主機，也很好玩，感覺以後什麼事，都能在電腦上做了。</t>
+<t tx="leo.20170623113156.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170623113216.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170623113236.1">## 如何連線到IPv6
+
+連線到IPV6 的網路設定教學
+
+&lt;small&gt;
+* 首先進入網路和共用中心
+* 選擇乙太網路內容
+* 把IPv4打勾按掉，然後打勾IPv6，點選內容
+* 把使用下列DNS伺服器網址打勾
+* 慣用DNS伺服器:「輸入學校的IPV6 IP」
+* 其他DNS伺服器:「中華電信的IPV6 IP」
+* 設定完後，進入網際網路的設定
+* 點開 Proxy 設定，點選LAN設定
+* 把Proxy伺服器打勾網址用「系館的IPv6」連接阜打3128
+* 就能完成IPV6的連線
+&lt;/small&gt;
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

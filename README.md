@@ -3,8 +3,7 @@
 
 
 
-#學員blog
+# 學員blog
 https://s40523142.github.io/2017springwcm_hw/blog/
-
-#學員投影片
+# 學員投影片
 http://s40523142.github.io/2017springwcm_hw
